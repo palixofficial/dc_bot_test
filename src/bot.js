@@ -9,4 +9,5 @@ const { registerCommands, registerEvents } = require('./utils/registry');
     await registerEvents(client, '../events');
     await registerCommands(client, '../commands');
     
+
 })();
